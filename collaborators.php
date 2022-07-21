@@ -21,9 +21,6 @@
             <div class="span3 bs-docs-sidebar" id="navparent">
                <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
                <li><a href="#collaborators">Collaborators</a></li>
-               <li><a class="subhead" href="#jane">#1</a></li>
-               <li><a class="subhead" href="#ronny">#2</a></li>
-               <li><a class="subhead" href="#jenny">#3</a></li>
                   </ul>
             </div>
             <div class="span8 offset1">
@@ -45,8 +42,8 @@
                         echo '<div class="span9"><h4>'. $row['name'] .'</h4>';
                         echo '<p>'.$row['des'].'</p>';
                         echo '<p><b>Email: </b>'. $row['email'] .'</p>';
-                        echo '<p><b>Address: </b>'. $row['address'] .'</p></div></div>';
-                        echo '<hr>';
+                        echo '<p><b>Phone: </b>'.$row['address'].'</p>';
+                        echo '</div></div><hr>';
                      }
                     }
                   ?>

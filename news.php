@@ -33,7 +33,7 @@
                         echo '<div class="img"> <image src = "../dash-admin/pages/images/'. $row['url'] .'"></div>';
                         echo '<div class="text"><p>'.$row['des'].'</p><br/><br/></div></div>';            
                       }
-                    }
+                    } 
                   ?>
 
                   
@@ -80,8 +80,12 @@
             </div> -->
          </div>
       </div>
+      </div>
+      </div>
+
+      
       <?php include ('footer.php') ?>
-</div>
+
 
       <!-- Le javascript
          ================================================== -->

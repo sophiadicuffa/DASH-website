@@ -47,9 +47,10 @@
                     $result = mysqli_query($conn, $sql);
                     if(mysqli_num_rows($result) > 0){
                       while ($row = mysqli_fetch_assoc($result)) {
+
+                        echo '<image width= "250px" class = "float-right" src = "../dash-admin/pages/images/'. $row['url'] .'"/>'; 
                         
                         echo '<h4>'. $row['subtitle'] .'</h4><br/>';
-                        echo '<image src = "../dash-admin/pages/images/'. $row['url'] .'"class = "float-right"/>'; 
                         echo '<p>'.$row['des'].'</p>';
                         echo '<hr>';
                         
@@ -67,13 +68,15 @@
                      <div class="span12">
                      <?php
                         require 'connect.php';
-                        $sql = "SELECT * FROM research WHERE title = 'SCS' ";
+                        $sql = "SELECT * FROM research WHERE title = 'Safety-Critical Systems' ";
                         $result = mysqli_query($conn, $sql);
                         if(mysqli_num_rows($result) > 0){
                            while ($row = mysqli_fetch_assoc($result)) {
+
+                              echo '<image width= "250px" class = "float-right" src = "../dash-admin/pages/images/'. $row['url'] .'"/>'; 
                               
                               echo '<h4>'. $row['subtitle'] .'</h4><br/>';
-                              echo '<image src = "../dash-admin/pages/images/'. $row['url'] .'"class = "float-right"/>'; 
+                              
                               echo '<p>'.$row['des'].'</p>';
                               echo '<hr>';
                         

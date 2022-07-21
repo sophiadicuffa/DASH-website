@@ -49,11 +49,11 @@
                         echo '<p>'.$row['des'].'</p>';
                         echo '<p><b>Phone: </b>'.$row['phone'].'</p>';
                         echo '<p><b>Email: </b>'.$row['email'].'</p>';
-                        echo '<p><b>Address: </b>'.$row['address'].'</p>';
-                        echo '<p><a href='.$row['cv'].'>CV</a>';
+                        
+                        echo '<p><a href='.$row['cv'].'>Resume</a>';
                         echo ', <a href='.$row['googlescholar'].'>Google Scholar</a>';
                         echo ', <a href='.$row['linkedin'].'>Linkedin</a>';
-                        echo ', <a href='.$row['researchgate'].'>Google Scholar</a></p>';
+                        echo ', <a href='.$row['researchgate'].'>ResearchGate</a></p>';
                         echo '</div><hr>';
                         
                       }
@@ -85,7 +85,7 @@
                         echo '<p>'.$row['des'].'</p>';
                         echo '<p><b>Phone: </b>'.$row['phone'].'</p>';
                         echo '<p><b>Email: </b>'.$row['email'].'</p>';
-                        echo '<p><b>Address: </b>'.$row['address'].'</p>';
+                        
                         echo '<p><a href='.$row['cv'].'>CV</a>';
                         echo ', <a href='.$row['googlescholar'].'>Google Scholar</a>';
                         echo ', <a href='.$row['linkedin'].'>Linkedin</a>';
@@ -122,7 +122,7 @@
                         echo '<p>'.$row['des'].'</p>';
                         echo '<p><b>Phone: </b>'.$row['phone'].'</p>';
                         echo '<p><b>Email: </b>'.$row['email'].'</p>';
-                        echo '<p><b>Address: </b>'.$row['address'].'</p>';
+                        
                         echo '<p><a href='.$row['cv'].'>CV</a>';
                         echo ', <a href='.$row['googlescholar'].'>Google Scholar</a>';
                         echo ', <a href='.$row['linkedin'].'>Linkedin</a>';
@@ -161,64 +161,7 @@
                      </div>
                   </div>
                   <hr>
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <a href="https://unsplash.com/photos/lEMHg4RFTW8" class="thumbnail">
-                        <img src="thumbs/graduate-4.jpg" alt="Simona Alexander"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Simona Alexander</h4>
-                        <p>Simona is currently a senior in the Lorem Ipsum Department at VAS. She is studying rhoncus eget mauris vitae, malesuada suscipit neque. Ut congue imperdiet lobortis. </p>
-                     </div>
-                  </div>
-                  <hr>
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <a href="https://unsplash.com/photos/Nyt7CeiNXQw" class="thumbnail">
-                        <img src="thumbs/graduate-5.jpg" alt="Zahima Sari"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Zahima Sari</h4>
-                        <p>Zahima is currently a third year undergraduate student in the Lorem Ipsum Engineering Department at VAS. She is modling the dynamics tincidunt, odio non suscipit condimentum, neque diam viverra risus, vel tincidunt elit massa eu nulla. </p>
-                     </div>
-                  </div>
-                  <hr>
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <a href="https://unsplash.com/photos/fNZfMhyd8Hs" class="thumbnail">
-                        <img src="thumbs/graduate-6.jpg" alt="Alissa Zhi"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Alissa Zhi</h4>
-                        <p>Alissa is currently a first year undergraduate student in the Science and Engineering Department at VAS. She is studying techniques to improve tempus pellentesque ex, et sollicitudin nunc faucibus vel. Suspendisse condimentum feugiat arcu, vitae pretium enim tempus eget.</p>
-                     </div>
-                  </div>
-                  <hr>
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <a href="https://unsplash.com/photos/WC7KIHo13Fc" class="thumbnail">
-                        <img src="thumbs/graduate-7.jpg" alt="David Tohm"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>David Tohm</h4>
-                        <p>David is currently a third year undergraduate student in the Science and Engineering Department at VAS. He is studying dui diam, pellentesque vel ullamcorper non, dictum eu tellus.</p>
-                     </div>
-                  </div>
-                  <hr>
-                  <div class="row-fluid">
-                     <div class="span3">
-                        <a href="https://unsplash.com/photos/APmln0DMSac" class="thumbnail">
-                        <img src="thumbs/graduate-8.jpg" alt="Jessica Smith"/>
-                        </a>
-                     </div>
-                     <div class="span9">
-                        <h4>Jessica Smith</h4>
-                        <p>Jessica is currently a second year undergraduate student in the Mechanical Engineering Department at VAS. She is studying Fusce et ullamcorper sapien. Integer tristique magna sed tellus faucibus imperdiet facilisis et quam.</p>
-                     </div>
+
                   </div> -->
                   </div>
                </section>

@@ -4,7 +4,7 @@
             <!--<img src="images/dash_head.png" style=" display: inline;" width="50%" />-->
             
             <img src="images/stevens_white.png"  style="border-right:1px solid #fff;" width="30%"/>
-            <img src="images/dash_head.png" style=" display: inline;" width="65%" />
+            <img src="images/header.png" style=" display: inline;" width="65%" />
            
           
          </header>
