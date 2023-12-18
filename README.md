@@ -1,4 +1,6 @@
 
-## Research Lab Website Design Template
+## DASH Lab Website Design
 
-This is a research lab website template that can be used by university students / professors to create a simple website for showing and displaying their labs / research. 
+A website to showcase the work done in the DASH research lab, created in June 2022.
+
+
